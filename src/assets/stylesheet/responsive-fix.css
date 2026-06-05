@@ -1,0 +1,175 @@
+
+/* responsive-fix.css */
+/* این فایل را بعد از output.css لود کن */
+
+@media (max-width:1024px){
+    header{
+        padding-right:1rem!important;
+        padding-left:1rem!important;
+    }
+
+    header>figure{
+        width:20%!important;
+    }
+
+    header>div{
+        width:80%!important;
+    }
+
+    header nav:first-child{
+        width:60%!important;
+    }
+
+    header nav:last-child{
+        width:40%!important;
+    }
+
+    .px-40{
+        padding-right:1rem!important;
+        padding-left:1rem!important;
+    }
+
+    .px-25{
+        padding-right:1rem!important;
+        padding-left:1rem!important;
+    }
+}
+
+@media (max-width:768px){
+
+    header{
+        height:auto!important;
+        min-height:64px!important;
+        justify-content:space-between!important;
+    }
+
+    header>figure{
+        width:40%!important;
+    }
+
+    header>div{
+        width:auto!important;
+    }
+
+    header nav:first-child{
+        display:none!important;
+    }
+
+    header nav:last-child{
+        width:auto!important;
+    }
+
+    .h-\[70vh\]{
+        height:auto!important;
+    }
+
+    .absolute.left-1\/2{
+        position:relative!important;
+        left:auto!important;
+        top:auto!important;
+        transform:none!important;
+        width:95%!important;
+        margin:1rem auto!important;
+    }
+
+    .w-\[80\%\]{
+        width:95%!important;
+    }
+
+    .px-40{
+        padding-right:1rem!important;
+        padding-left:1rem!important;
+    }
+
+    .px-25{
+        padding-right:1rem!important;
+        padding-left:1rem!important;
+    }
+
+    .h-\[90px\]{
+        height:auto!important;
+    }
+
+    .h-\[140px\]{
+        height:auto!important;
+    }
+
+    .flex.justify-between.items-center.border-b{
+        flex-wrap:wrap!important;
+        gap:1rem!important;
+        padding:1rem!important;
+    }
+
+    .flex.justify-between.items-center.border-b > div{
+        width:22%!important;
+    }
+
+    .w-full.h-22\.5.flex.items-center{
+        flex-direction:column!important;
+        height:auto!important;
+        gap:1rem!important;
+    }
+
+    .w-2\/5,
+    .w-\[30\%\],
+    .w-\[15\%\]{
+        width:100%!important;
+    }
+
+    .w-2\/5.h-20,
+    .w-\[30\%\].h-20,
+    .w-\[15\%\].h-20{
+        height:auto!important;
+    }
+
+    input{
+        width:100%!important;
+    }
+
+    button{
+        width:100%!important;
+    }
+
+    .my-6{
+        display:flex!important;
+        flex-direction:column!important;
+        gap:1rem!important;
+        height:auto!important;
+    }
+
+    .my-6>*{
+        width:100%!important;
+    }
+
+    .h-68{
+        flex-direction:column!important;
+        height:auto!important;
+    }
+
+    .h-68>*{
+        width:100%!important;
+    }
+}
+
+@media (max-width:480px){
+
+    html{
+        font-size:14px!important;
+    }
+
+    header>figure{
+        width:55%!important;
+    }
+
+    .flex.justify-between.items-center.border-b > div{
+        width:45%!important;
+    }
+
+    .text-2xl{
+        font-size:1.25rem!important;
+    }
+
+    .text-lg{
+        font-size:1rem!important;
+    }
+}
